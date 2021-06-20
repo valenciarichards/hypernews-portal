@@ -15,7 +15,7 @@ def get_news_data():
 # Create a view for the home page.
 class HomePageView(View):
     def get(self, request):
-        return HttpResponse("<h1>Coming soon</h1>")
+        return redirect("/news/")
 
 
 # Create a view for the news main page.
@@ -24,6 +24,13 @@ class NewsMainView(View):
         news = get_news_data()
         # Sort the news articles by date, newest first.
         sorted_news = sorted(news, key=lambda x: x["created"], reverse=True)
+        # Filter only articles whose titles match the search term, if applicable
+        try:
+            q = request.GET.get("q")
+            if q:
+                sorted_news = [article for article in sorted_news if q.lower() in article["title"].lower()]
+        except KeyError:
+            pass
         return render(request, "news/index.html", context={"sorted_news": sorted_news})
 
 
@@ -46,7 +53,7 @@ class CreateNewsView(View):
     def get(self, request):
         return render(request, "news/create.html")
 
-    def post(self, request, *args, **kwargs):
+    def post(self, request):
         news = get_news_data()
         title = request.POST.get("title")
         text = request.POST.get("text")
