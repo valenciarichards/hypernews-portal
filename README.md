@@ -2,7 +2,7 @@
 
 Django web app that allows users to view, create, and search news articles.
 
-This app was built as a JetBrains Academy project.
+This app was built as a JetBrains Academy project, and the repository also contains my code snippets from exercises from JetBrains Academy's Python Developer track in the 'Topics' folder.
 
 
 ## Installation
