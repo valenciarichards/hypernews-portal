@@ -33,6 +33,8 @@ python manage.py runserver
 
 Then navigate to [http://localhost:8000/](http://localhost:8000/) with your preferred web browser.
 
+To quit the server, use CTRL+C.
+
 
 ## License
 
