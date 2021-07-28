@@ -20,8 +20,6 @@ To install Django and other necessary modules, navigate to the root directory of
 pip install -r requirements.txt
 ```
 
-You can also choose to install Django as part of Anaconda instead. For instructions on installing Anaconda, click [here.](https://docs.anaconda.com/anaconda/install/index.html)
-
 
 ## Usage
 
