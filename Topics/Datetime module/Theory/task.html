@@ -1,8 +1,9 @@
+<h2>Datetime module</h2>
 <html>
  <head></head>
  <body>
-  <h2 style="text-align: center;">datetime module</h2> 
-  <p>Often, in our projects, we need to work with dates and time. For example, we may want to track the current date and time or see how long our code runs. For these purposes, we can use the <strong><code class="language-python">datetime</code></strong> module. </p> 
+  <p>Often, in our projects, we need to work with dates and time. For example, we may want to track the current date and time or see how long our code runs. For these purposes, we can use the <strong><code class="language-python">datetime</code></strong> module. Let's look closely at what we can do with it.</p> 
+  <h2 style="text-align: center;">datetime module classes</h2> 
   <p>The <code class="language-python">datetime</code> module has several classes that make working with time easy:</p> 
   <ul> 
    <li><code class="language-python">datetime.date</code> represents standard date;</li> 
@@ -44,6 +45,7 @@ print(datetime.datetime.today())  # 2019-09-12 17:18:23.625716</code></pre>
   <p>You can also transform a <code class="language-python">datetime.datetime</code> object to a <code class="language-python">datetime.time</code> or <code class="language-python">datetime.date</code> objects using <code class="language-python">datetime.datetime.time()</code> or <code class="language-python">datetime.datetime.date()</code> methods respectively:</p> 
   <pre><code class="language-python">print(vostok_1.time())  # 06:07:00
 print(vostok_1.date())  # 1961-04-12</code></pre> 
-  <p>Those were just a couple of methods available in the <code class="language-python">datetime.datetime</code> class. There are many more: the ones that deal with timestamps or timezones or the ones that help parse and convert datetime objects. Don't worry, you'll have a chance to work with them in the next topics!</p>
+  <h2>Summary</h2> 
+  <p>To sum up, in this topic, we've familiarized ourselves with Python <strong><code class="language-python">datetime</code></strong> module, its <code class="language-python">datetime.datetime</code> class and some of the methods it has. Those were just a couple of methods available in the <code class="language-python">datetime.datetime</code> class. There are many more: the ones that deal with timestamps or timezones or the ones that help parse and convert datetime objects. Don't worry, you'll have a chance to work with them in the next topics!</p>
  </body>
 </html>

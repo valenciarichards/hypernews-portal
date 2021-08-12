@@ -1,3 +1,4 @@
+<h2>BeautifulSoup: working with HTML</h2>
 <html>
  <head></head>
  <body>
@@ -18,7 +19,7 @@ from bs4 import BeautifulSoup</code></pre>
   <pre><code class="language-python">print(r.status_code)  # 200</code></pre> 
   <p>Then we use <code class="language-python">BeautifulSoup()</code> class to create a parse tree of our page.</p> 
   <pre><code class="language-python">soup = BeautifulSoup(r.content, 'html.parser')</code></pre> 
-  <p>There are two parameters: <code class="language-python">r.content</code> is the data of the page, and <code class="language-python">html.parser</code> is a parser included in the standard Python library. You can install additional parsers like <code class="language-python">lxml</code><strong> </strong>via pip and use them instead of the <code class="language-python">html.parser</code>. <code class="language-python">lxml</code><strong> </strong>parser is used for swift processing.</p> 
+  <p>There are two parameters: <code class="language-python">r.content</code> is the data of the page, and <code class="language-python">html.parser</code> is a parser included in the standard Python library. You can install additional parsers like lxml<strong> </strong>via pip and use them instead of the <code class="language-python">html.parser</code>. The lxml<strong> </strong>parser is used for swift processing.</p> 
   <p>The result of the procedure is a tree. You can use the <code class="language-python">prettify()</code> method to turn your tree into a nicely formatted string.</p> 
   <pre><code class="language-python">print(soup.prettify())
 

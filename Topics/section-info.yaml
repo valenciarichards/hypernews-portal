@@ -7,3 +7,5 @@ content:
 - BeautifulSoup  working with HTML
 - Submitting data
 - Inheritance
+- Args
+- Custom generators
