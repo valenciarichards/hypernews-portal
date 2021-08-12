@@ -1,4 +1,6 @@
 {% extends "news/index.html" %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
 {% block content %}
 <form action="/news/create/" method="post">
     {% csrf_token %}

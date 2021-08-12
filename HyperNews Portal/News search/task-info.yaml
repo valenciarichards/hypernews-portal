@@ -842,13 +842,10 @@ files:
     <a target="_blank" href="/news/">Main Page</a>
     {% endblock content %}
   learner_created: true
-- name: db.test.sqlite3
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/102/stages/565/implement#comment
 status: Solved
 feedback:
   message: Well done! You finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
     Academy</a> to continue learning.
-  time: Sun, 20 Jun 2021 19:45:03 UTC
+  time: Sun, 20 Jun 2021 20:37:15 UTC
 record: 6

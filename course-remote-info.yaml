@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/339506/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sun, 20 Jun 2021 18:03:57 UTC
+update_date: Thu, 12 Aug 2021 01:50:50 UTC
 stages:
 - id: 561
   step: 9411
@@ -44,6 +44,8 @@ topics:
     theory_id: 6651
   - title: Processing requests
     theory_id: 6472
+  - title: Regexps basics
+    theory_id: 7580
   - title: Computer programming
     theory_id: 8739
   - title: Intro to computational thinking
@@ -104,20 +106,22 @@ topics:
     theory_id: 6669
   - title: Methods
     theory_id: 6931
-  - title: Regexps basics
-    theory_id: 7580
   - title: Libraries
     theory_id: 8504
   - title: Frameworks
     theory_id: 6701
   - title: PyCharm basics
     theory_id: 6193
+  - title: Web development
+    theory_id: 13931
   - title: Command line overview
     theory_id: 8977
   - title: Parameters and options
     theory_id: 9746
   - title: Pip
     theory_id: 6230
+  - title: Virtual Environment
+    theory_id: 13923
   - title: Basic data types
     theory_id: 5852
   - title: Integer arithmetic
@@ -157,24 +161,32 @@ topics:
     theory_id: 7518
   - title: Files
     theory_id: 13025
+  - title: File types
+    theory_id: 13017
   - title: Django template language
     theory_id: 6391
   - title: Template filters
     theory_id: 10006
-  - title: Bugs and debugging
+  - title: JSON
+    theory_id: 6854
+  - title: What is a bug
     theory_id: 5504
   - title: Introduction to Python shell
     theory_id: 8133
   - title: Experiments with Python shell
     theory_id: 8238
-  - title: JSON
-    theory_id: 6854
   - title: Datetime module
     theory_id: 7324
   - title: Debugging in shell
     theory_id: 8244
   - title: Design principles
     theory_id: 8956
+  - title: Introduction to Linux
+    theory_id: 9526
+  - title: File modes and permissions
+    theory_id: 13953
+  - title: Working with file modes and permissions
+    theory_id: 13961
   - title: Files in Python
     theory_id: 8691
   - title: Reading files
